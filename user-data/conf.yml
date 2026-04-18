@@ -1,46 +1,66 @@
 ---
 # Page meta info, like heading, footer text and nav links
 pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
+  title: hub.dovahkin
+  description: Welcome to the HUB
   navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
-
-# Optional app settings and configuration
+    - title: GitHub Repo
+      path: https://github.com/Gridselix/dashy-hub
+  logo: https://i.ibb.co/vz6mXvF/favicon.png # Generic tech icon
 appConfig:
-  theme: colorful
+  theme: nordic # Clean, dark, and professional
+  layout: auto
+  iconSize: medium
 
-# Main content - An array of sections, each containing an array of items
 sections:
-- name: Getting Started
-  icon: fas fa-rocket
-  items:
-  - title: Dashy Live
-    description: Development a project management links for Dashy
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://live.dashy.to/
-    target: newtab
-  - title: GitHub
-    description: Source Code, Issues and Pull Requests
-    url: https://github.com/lissy93/dashy
-    icon: favicon
-  - title: Docs
-    description: Configuring & Usage Documentation
-    provider: Dashy.to
-    icon: far fa-book
-    url: https://dashy.to/docs
-  - title: Showcase
-    description: See how others are using Dashy
-    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-    icon: far fa-grin-hearts
-  - title: Config Guide
-    description: See full list of configuration options
-    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-    icon: fas fa-wrench
-  - title: Support
-    description: Get help with Dashy, raise a bug, or get in contact
-    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-    icon: far fa-hands-helping
+  - name: Second Brain & Notes
+    icon: fas fa-brain
+    items:
+      - title: GitNote
+        description: Obsidian Vault (GitHub Dev)
+        icon: fas fa-edit
+        url: https://gitnote.dovahkin.uk
+      - title: Obsidian Repo
+        description: Raw Markdown Files
+        icon: fab fa-github
+        url: https://github.com/Gridselix/my-vault
+
+  - name: Network & Infrastructure
+    icon: fas fa-server
+    items:
+      - title: Uptime Kuma
+        description: Service Monitoring
+        icon: fas fa-heartbeat
+        url: https://uptime.dovahkin.uk
+      - title: Oracle Cloud
+        description: VM Management
+        icon: fas fa-cloud
+        url: https://cloud.oracle.com
+      - title: Cloudflare
+        description: DNS & Domain Logic
+        icon: fas fa-shield-alt
+        url: https://dash.cloudflare.com
+
+  - name: Retail Operations (GMM)
+    icon: fas fa-store
+    items:
+      - title: AutoCount
+        description: Inventory & Stock Management
+        icon: fas fa-boxes
+        url: https://your-autocount-web-link.com
+      - title: Fipper / Chriszen
+        description: Staff Roster & SOPs
+        icon: fas fa-users
+        url: https://your-roster-link.com
+
+  - name: Entertainment & Repacks
+    icon: fas fa-gamepad
+    items:
+      - title: FitGirl Repacks
+        description: The Archive
+        icon: fas fa-magnet
+        url: https://fitgirl-repacks.site
+      - title: Anime Watchlist
+        description: Gate, Baki, Jojo
+        icon: fas fa-tv
+        url: https://your-anime-site.com
