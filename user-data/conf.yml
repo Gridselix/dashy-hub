@@ -29,6 +29,294 @@ sections:
         icon: fas fa-shield-alt
         url: https://dns.dovahkin.uk
 
+  - name: Artificial Intelligence
+    icon: fas fa-brain
+    items:
+      - title: Gemini
+        description: Google Multimodal LLM
+        icon: fas fa-sparkles
+        url: https://gemini.google.com/
+      - title: Claude
+        description: Anthropic Opus/Sonnet
+        icon: fas fa-comment-dots
+        url: https://claude.ai/
+      - title: ChatGPT
+        description: OpenAI GPT
+        icon: fas fa-robot
+        url: https://chatgpt.com/
+      - title: DeepSeek
+        description: Advanced Coder/Reasoner LLM
+        icon: fas fa-code-branch
+        url: https://chat.deepseek.com/
+      - title: Grok
+        description: xAI Grok
+        icon: fas fa-times
+        url: https://grok.com/
+      - title: Qwen
+        description: Alibaba Qwen Chat
+        icon: fas fa-language
+        url: https://chat.qwen.ai/
+      - title: Kimi
+        description: Moonshot AI Context Reader
+        icon: fas fa-moon
+        url: https://www.kimi.com/
+      - title: Z.ai
+        description: Z AI Chat Interface
+        icon: fas fa-bolt
+        url: https://chat.z.ai/
+      - title: Meta AI
+        description: Llama 3 Chat
+        icon: fab fa-meta
+        url: https://www.meta.ai/
+
+  - name: Web Utilities & Security
+    icon: fas fa-tools
+    items:
+      - title: Have I Been Pwned 🌟
+        description: Data Breach Check
+        icon: fas fa-user-secret
+        url: https://haveibeenpwned.com/
+      - title: VirusTotal 🌟
+        description: File & URL Malware Scan
+        icon: fas fa-bug
+        url: https://www.virustotal.com/
+      - title: PairDrop 🌟
+        description: Local File Transfer
+        icon: fas fa-wifi
+        url: https://pairdrop.net/
+      - title: AlternativeTo
+        description: Find Software Alternatives
+        icon: fas fa-exchange-alt
+        url: https://alternativeto.net/
+      - title: F-Droid
+        description: FOSS Android Repository
+        icon: fab fa-android
+        url: https://f-droid.org/
+      - title: TinyWow
+        description: Free Utility Tools
+        icon: fas fa-magic
+        url: https://tinywow.com/
+      - title: Wormhole
+        description: Encrypted File Sharing
+        icon: fas fa-file-export
+        url: https://wormhole.app/
+      - title: TempMail
+        description: Disposable Email Addresses
+        icon: fas fa-envelope-open-text
+        url: https://temp-mail.org/
+      - title: NordPass Generator
+        description: Secure Passwords & Usernames
+        icon: fas fa-key
+        url: https://nordpass.com/username-generator/#Generator
+      - title: BigJPG
+        description: AI Image Upscaling
+        icon: fas fa-image
+        url: https://bigjpg.com/
+      - title: Yandex Images
+        description: Reverse Image Search
+        icon: fas fa-search
+        url: https://yandex.com/images/
+      - title: CNV MP3
+        description: YouTube Audio Extraction
+        icon: fas fa-music
+        url: https://cnvmp3.com/v15
+
+  - name: Infrastructure & Monitoring
+    icon: fas fa-server
+    items:
+      - title: Tailscale
+        description: Network Admin Console
+        icon: fas fa-network-wired
+        url: https://login.tailscale.com/admin/machines
+      - title: BetterStack
+        description: Incident Management
+        icon: fas fa-layer-group
+        url: https://betterstack.com/
+      - title: Healthchecks.io
+        description: Cron Job Monitoring
+        icon: fas fa-stethoscope
+        url: https://healthchecks.io/
+      - title: UptimeRobot
+        description: Web Monitor
+        icon: fas fa-robot
+        url: https://uptimerobot.com/
+      - title: Pinggy
+        description: Public URLs for Localhost
+        icon: fas fa-globe
+        url: https://pinggy.io/
+      - title: Brevo SMTP
+        description: Email Routing
+        icon: fas fa-envelope
+        url: https://app.brevo.com/settings/keys/smtp
+
+  - name: The Archive & Repacks
+    icon: fas fa-download
+    items:
+      - title: FitGirl Repacks 🌟
+        description: Compressed Game Archives
+        icon: fas fa-gamepad
+        url: https://fitgirl-repacks.site/
+      - title: DODI Repacks 🌟
+        description: Fast Install Game Archives
+        icon: fas fa-gamepad
+        url: https://dodi-repacks.site/
+      - title: Massgrave (MAS) 🌟
+        description: Windows/Office Activation
+        icon: fab fa-windows
+        url: https://massgrave.dev/
+      - title: FMHY 🌟
+        description: Free Media Heck Yeah Directory
+        icon: fas fa-list-ul
+        url: https://fmhy.net/
+      - title: Rentry Megathread 🌟
+        description: Piracy Hubs
+        icon: fas fa-scroll
+        url: https://rentry.co/megathread
+      - title: Prowlarr 🌟
+        description: Indexer Manager
+        icon: fas fa-search-plus
+        url: https://prowlarr.com/
+      - title: Steam.tools
+        description: Steam Economy & Cards
+        icon: fab fa-steam
+        url: https://steam.tools/
+      - title: Mobilism
+        description: Mobile Apps & Books
+        icon: fas fa-mobile-alt
+        url: https://forum.mobilism.org/index.php
+      - title: Office-Tool
+        description: Deployment & Downloads
+        icon: fas fa-file-word
+        url: https://github.com/YerongAI/Office-Tool/releases
+
+  - name: Media & Debrid (Stremio)
+    icon: fas fa-tv
+    items:
+      - title: Real-Debrid 🌟
+        description: Premium Link Generator
+        icon: fas fa-link
+        url: https://real-debrid.com/
+      - title: AllDebrid 🌟
+        description: Multi-Host Downloader
+        icon: fas fa-bolt
+        url: https://alldebrid.com/
+      - title: Debrid Media Manager
+        description: Cache Search & Management
+        icon: fas fa-database
+        url: https://debridmediamanager.com/library
+      - title: Torrentio Configure
+        description: Stremio Main Addon
+        icon: fas fa-cogs
+        url: https://torrentio.strem.fun/configure
+      - title: Stremio Addon Manager
+        description: Web Addon Controller
+        icon: fas fa-puzzle-piece
+        url: https://stremio-addon-manager.vercel.app/
+      - title: Stremio Bootstrapper
+        description: Account Setup Tool
+        icon: fas fa-play
+        url: https://bootstrapper.stremaddon.net/
+      - title: Trakt Dashboard
+        description: Media Tracking & Scrobbling
+        icon: fas fa-chart-line
+        url: https://trakt.tv/dashboard
+
+  - name: Torrents & Trackers
+    icon: fas fa-magnet
+    items:
+      - title: EXT.to 🌟
+        description: General Torrent Search
+        icon: fas fa-search
+        url: https://ext.to/
+      - title: 1337x
+        description: Public Tracker Base
+        icon: fas fa-file-download
+        url: https://1337x.to/home/
+      - title: BitSearch
+        description: DHT Search Engine
+        icon: fas fa-search-location
+        url: https://bitsearch.to/
+      - title: The Pirate Bay
+        description: The Legacy Index
+        icon: fas fa-ship
+        url: https://www.thepiratebay.org/
+
+  - name: Anime Arsenal
+    icon: fas fa-journal-whills
+    items:
+      - title: EverythingMoe 🌟
+        description: The Master Anime Index
+        icon: fas fa-star
+        url: https://everythingmoe.com/
+      - title: Nyaa.land
+        description: Anime Tracker
+        icon: fas fa-cat
+        url: https://nyaa.land/
+      - title: Wotaku Wiki
+        description: Weeb Resource Guide
+        icon: fas fa-book-open
+        url: https://wotaku.wiki/
+      - title: AniChart
+        description: Seasonal Anime Guide
+        icon: fas fa-calendar-alt
+        url: https://anichart.net/
+      - title: Shana Project
+        description: Automated Anime Torrents
+        icon: fas fa-robot
+        url: https://www.shanaproject.com/
+      - title: AnimeTosho
+        description: Automated Mirror DDLs
+        icon: fas fa-copy
+        url: https://animetosho.org/
+      - title: AnimeOnsen
+        description: Streaming Hub
+        icon: fas fa-video
+        url: https://www.animeonsen.xyz/
+      - title: AsiaFlix
+        description: Asian Media Streaming
+        icon: fas fa-film
+        url: https://asiaflix.net/
+
+  - name: Aesthetics, Audio & Wallpapers
+    icon: fas fa-palette
+    items:
+      - title: Wallhaven 🌟
+        description: High-Res Wallpapers
+        icon: fas fa-image
+        url: https://wallhaven.cc/
+      - title: Pixiv Pictures
+        description: Illustration Hub
+        icon: fas fa-paint-brush
+        url: https://pixiv.pictures/
+      - title: MoeWalls
+        description: Live & Anime Backgrounds
+        icon: fas fa-desktop
+        url: https://moewalls.com/
+      - title: E-Shuushuu
+        description: Image Board
+        icon: fas fa-images
+        url: https://e-shuushuu.net/
+      - title: AlphaCoders Mobile
+        description: Phone Aspect Ratios
+        icon: fas fa-mobile
+        url: https://mobile.alphacoders.com/
+      - title: MachinimaSound Legacy
+        description: Royalty Free Tracks
+        icon: fas fa-compact-disc
+        url: https://machinimasound.com/legacy-tracks
+      - title: SoundCloud
+        description: Audio Discovery
+        icon: fab fa-soundcloud
+        url: https://soundcloud.com/
+      - title: Desktop Nexus
+        description: Classic Wallpaper Hub
+        icon: fas fa-tv
+        url: http://www.desktopnexus.com/
+      - title: BHM Pics
+        description: General Backgrounds
+        icon: fas fa-file-image
+        url: http://www.bhmpics.com/top_wallpapers.html
+
   - name: System Utilities & Tweaks
     icon: fas fa-wrench
     items:
@@ -132,239 +420,3 @@ sections:
         description: Animated Desktop Backgrounds
         icon: fas fa-desktop
         url: https://rocksdanister.github.io/lively/
-
-  - name: Web Utilities & Security
-    icon: fas fa-tools
-    items:
-      - title: Have I Been Pwned ✪
-        description: Data Breach Check
-        icon: fas fa-user-secret
-        url: https://haveibeenpwned.com/
-      - title: VirusTotal ✪
-        description: File & URL Malware Scan
-        icon: fas fa-bug
-        url: https://www.virustotal.com/
-      - title: PairDrop ✪
-        description: Local File Transfer
-        icon: fas fa-wifi
-        url: https://pairdrop.net/
-      - title: 12ft Ladder
-        description: Bypass Paywalls
-        icon: fas fa-ladder-water
-        url: https://12ft.io/
-      - title: AlternativeTo
-        description: Find Software Alternatives
-        icon: fas fa-exchange-alt
-        url: https://alternativeto.net/
-      - title: TinyWow
-        description: Free Utility Tools
-        icon: fas fa-magic
-        url: https://tinywow.com/
-      - title: Wormhole
-        description: Encrypted File Sharing
-        icon: fas fa-file-export
-        url: https://wormhole.app/
-      - title: TempMail
-        description: Disposable Email Addresses
-        icon: fas fa-envelope-open-text
-        url: https://temp-mail.org/
-      - title: NordPass Generator
-        description: Secure Passwords & Usernames
-        icon: fas fa-key
-        url: https://nordpass.com/username-generator/#Generator
-      - title: BigJPG
-        description: AI Image Upscaling
-        icon: fas fa-image
-        url: https://bigjpg.com/
-      - title: Yandex Images
-        description: Reverse Image Search
-        icon: fas fa-search
-        url: https://yandex.com/images/
-      - title: CNV MP3
-        description: YouTube Audio Extraction
-        icon: fas fa-music
-        url: https://cnvmp3.com/v15
-
-  - name: Infrastructure & Monitoring
-    icon: fas fa-server
-    items:
-      - title: Tailscale
-        description: Network Admin Console
-        icon: fas fa-network-wired
-        url: https://login.tailscale.com/admin/machines
-      - title: BetterStack
-        description: Incident Management
-        icon: fas fa-layer-group
-        url: https://betterstack.com/
-      - title: Healthchecks.io
-        description: Cron Job Monitoring
-        icon: fas fa-stethoscope
-        url: https://healthchecks.io/
-      - title: UptimeRobot
-        description: Web Monitor
-        icon: fas fa-robot
-        url: https://uptimerobot.com/
-      - title: Pinggy
-        description: Public URLs for Localhost
-        icon: fas fa-globe
-        url: https://pinggy.io/
-      - title: Brevo SMTP
-        description: Email Routing
-        icon: fas fa-envelope
-        url: https://app.brevo.com/settings/keys/smtp
-
-  - name: The Archive & Repacks
-    icon: fas fa-download
-    items:
-      - title: FitGirl Repacks ✪
-        description: Compressed Game Archives
-        icon: fas fa-gamepad
-        url: https://fitgirl-repacks.site/
-      - title: DODI Repacks ✪
-        description: Fast Install Game Archives
-        icon: fas fa-gamepad
-        url: https://dodi-repacks.site/
-      - title: Massgrave (MAS) ✪
-        description: Windows/Office Activation
-        icon: fab fa-windows
-        url: https://massgrave.dev/
-      - title: FMHY
-        description: Free Media Heck Yeah Directory
-        icon: fas fa-list-ul
-        url: https://fmhy.net/
-      - title: Rentry Megathread
-        description: Piracy Hubs
-        icon: fas fa-scroll
-        url: https://rentry.co/megathread
-      - title: Myrient
-        description: ROMs & Emulation Archive
-        icon: fas fa-compact-disc
-        url: https://myrient.erista.me/
-      - title: Steam.tools
-        description: Steam Economy & Cards
-        icon: fab fa-steam
-        url: https://steam.tools/
-      - title: Mobilism
-        description: Mobile Apps & Books
-        icon: fas fa-mobile-alt
-        url: https://forum.mobilism.org/index.php
-      - title: Office-Tool
-        description: Deployment & Downloads
-        icon: fas fa-file-word
-        url: https://github.com/YerongAI/Office-Tool/releases
-
-  - name: Media & Debrid (Stremio)
-    icon: fas fa-tv
-    items:
-      - title: Real-Debrid ✪
-        description: Premium Link Generator
-        icon: fas fa-link
-        url: https://real-debrid.com/
-      - title: AllDebrid ✪
-        description: Multi-Host Downloader
-        icon: fas fa-bolt
-        url: https://alldebrid.com/
-      - title: Debrid Media Manager
-        description: Cache Search & Management
-        icon: fas fa-database
-        url: https://debridmediamanager.com/library
-      - title: Torrentio Configure
-        description: Stremio Main Addon
-        icon: fas fa-cogs
-        url: https://torrentio.strem.fun/configure
-      - title: Stremio Addon Manager
-        description: Web Addon Controller
-        icon: fas fa-puzzle-piece
-        url: https://stremio-addon-manager.vercel.app/
-      - title: Stremio Bootstrapper
-        description: Account Setup Tool
-        icon: fas fa-play
-        url: https://stremio-account-bootstrapper.vercel.app/
-      - title: Trakt Dashboard
-        description: Media Tracking & Scrobbling
-        icon: fas fa-chart-line
-        url: https://trakt.tv/dashboard
-
-  - name: Torrents & Trackers
-    icon: fas fa-magnet
-    items:
-      - title: EXT.to ✪
-        description: General Torrent Search
-        icon: fas fa-search
-        url: https://ext.to/
-      - title: 1337x
-        description: Public Tracker Base
-        icon: fas fa-file-download
-        url: https://1337x.to/home/
-      - title: BitSearch
-        description: DHT Search Engine
-        icon: fas fa-search-location
-        url: https://bitsearch.to/
-      - title: The Pirate Bay
-        description: The Legacy Index
-        icon: fas fa-ship
-        url: https://www.thepiratebay.org/
-
-  - name: Anime Arsenal
-    icon: fas fa-journal-whills
-    items:
-      - title: EverythingMoe ✪
-        description: The Master Anime Index
-        icon: fas fa-star
-        url: https://everythingmoe.com/
-      - title: Nyaa.land
-        description: Anime Tracker
-        icon: fas fa-cat
-        url: https://nyaa.land/
-      - title: Wotaku Wiki
-        description: Weeb Resource Guide
-        icon: fas fa-book-open
-        url: https://wotaku.wiki/
-      - title: Shana Project
-        description: Automated Anime Torrents
-        icon: fas fa-robot
-        url: https://www.shanaproject.com/
-      - title: AnimeTosho
-        description: Automated Mirror DDLs
-        icon: fas fa-copy
-        url: https://animetosho.org/
-      - title: AnimeOnsen
-        description: Streaming Hub
-        icon: fas fa-video
-        url: https://www.animeonsen.xyz/
-      - title: AsiaFlix
-        description: Asian Media Streaming
-        icon: fas fa-film
-        url: https://asiaflix.net/
-
-  - name: Aesthetics & Wallpapers
-    icon: fas fa-palette
-    items:
-      - title: Wallhaven ✪
-        description: High-Res Wallpapers
-        icon: fas fa-image
-        url: https://wallhaven.cc/
-      - title: Pixiv Pictures
-        description: Illustration Hub
-        icon: fas fa-paint-brush
-        url: https://pixiv.pictures/
-      - title: MoeWalls
-        description: Live & Anime Backgrounds
-        icon: fas fa-desktop
-        url: https://moewalls.com/
-      - title: E-Shuushuu
-        description: Image Board
-        icon: fas fa-images
-        url: https://e-shuushuu.net/
-      - title: AlphaCoders Mobile
-        description: Phone Aspect Ratios
-        icon: fas fa-mobile
-        url: https://mobile.alphacoders.com/
-      - title: Desktop Nexus
-        description: Classic Wallpaper Hub
-        icon: fas fa-tv
-        url: http://www.desktopnexus.com/
-      - title: BHM Pics
-        description: General Backgrounds
-        icon: fas fa-file-image
-        url: http://www.bhmpics.com/top_wallpapers.html
