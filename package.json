@@ -18,7 +18,9 @@
     "build-and-start": "NODE_OPTIONS=--openssl-legacy-provider npm-run-all --parallel build start",
     "validate-config": "node services/config-validator",
     "health-check": "node services/healthcheck",
-    "dependency-audit": "npx improved-yarn-audit --ignore-dev-deps"
+    "dependency-audit": "npx improved-yarn-audit --ignore-dev-deps",
+    "deploy": "yarn run build && wrangler deploy",
+    "preview": "yarn run build && wrangler dev"
   },
   "dependencies": {
     "@babel/core": "^7.26.0",
@@ -78,7 +80,8 @@
     "vitest": "^1.6.0",
     "vue-cli-plugin-yaml": "^1.0.2",
     "vue-svg-loader": "^0.16.0",
-    "vue-template-compiler": "^2.7.0"
+    "vue-template-compiler": "^2.7.0",
+    "wrangler": "^4.83.0"
   },
   "engines": {
     "node": ">=16.0.0 <21.6.2"
