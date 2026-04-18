@@ -4,7 +4,7 @@ pageInfo:
   title: Dovahkin Hub
   description: Welcome to Dovahkin Personal Links
 appConfig:
-  theme: nordic
+  theme: nord
   layout: auto
   iconSize: medium
 
@@ -29,6 +29,110 @@ sections:
         icon: fas fa-shield-alt
         url: https://dns.dovahkin.uk
 
+  - name: System Utilities & Tweaks
+    icon: fas fa-wrench
+    items:
+      - title: WinHance
+        description: Windows 11 Debloat & Optimization
+        icon: fab fa-windows
+        url: https://winhance.net/
+      - title: Winaero Tweaker
+        description: Legacy Windows Tweaks
+        icon: fas fa-sliders-h
+        url: https://winaero.com/winaero-tweaker/
+      - title: UniGetUI
+        description: Package Manager GUI
+        icon: fas fa-box-open
+        url: https://github.com/marticliment/UniGetUI
+      - title: Autoruns
+        description: Sysinternals Startup Monitor
+        icon: fas fa-running
+        url: https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns
+      - title: BleachBit
+        description: System Cleaner
+        icon: fas fa-broom
+        url: https://www.bleachbit.org/
+      - title: HiBit Uninstaller
+        description: Deep Software Removal
+        icon: fas fa-trash-alt
+        url: https://www.hibitsoft.ir/Uninstaller.html
+      - title: AdwCleaner
+        description: Malwarebytes Adware Removal
+        icon: fas fa-shield-virus
+        url: https://www.malwarebytes.com/adwcleaner
+      - title: WizTree
+        description: Storage Analyzer
+        icon: fas fa-hdd
+        url: https://diskanalyzer.com/
+      - title: HWiNFO
+        description: Hardware Diagnostics
+        icon: fas fa-microchip
+        url: https://www.hwinfo.com/
+      - title: CrystalDiskInfo
+        description: S.M.A.R.T. Drive Health
+        icon: fas fa-heartbeat
+        url: https://crystalmark.info/en/software/crystaldiskinfo/
+      - title: CrystalDiskMark
+        description: Drive Benchmarking
+        icon: fas fa-tachometer-alt
+        url: https://crystalmark.info/en/software/crystaldiskmark/
+      - title: SSD-Z
+        description: Solid State Drive Info
+        icon: fas fa-memory
+        url: https://aezay.dk/aezay/ssdz/
+      - title: Smart Defrag
+        description: IObit Disk Optimization
+        icon: fas fa-compact-disc
+        url: https://www.iobit.com/en/iobitsmartdefrag.php
+      - title: Recuva
+        description: File Recovery
+        icon: fas fa-life-ring
+        url: https://www.ccleaner.com/recuva
+      - title: FreeFileSync
+        description: Folder Backup & Sync
+        icon: fas fa-sync-alt
+        url: https://freefilesync.org/
+      - title: Syncthing
+        description: P2P File Synchronization
+        icon: fas fa-network-wired
+        url: https://syncthing.net/downloads/
+      - title: Rufus
+        description: Bootable USB Creator
+        icon: fas fa-usb
+        url: https://rufus.ie/
+      - title: Ventoy
+        description: Multi-Boot USB Tool
+        icon: fas fa-layer-group
+        url: https://www.ventoy.net/
+      - title: 7-Zip
+        description: File Archiver
+        icon: fas fa-file-archive
+        url: https://www.7-zip.org/
+      - title: Bitwarden
+        description: Password Manager
+        icon: fas fa-lock
+        url: https://bitwarden.com/
+      - title: JDownloader 2
+        description: Download Manager
+        icon: fas fa-download
+        url: https://jdownloader.org/jdownloader2
+      - title: qBittorrent
+        description: Torrent Client
+        icon: fas fa-magnet
+        url: https://www.qbittorrent.org/
+      - title: ReNamer
+        description: Batch File Renaming
+        icon: fas fa-edit
+        url: https://www.den4b.com/products/renamer
+      - title: ADB AppControl
+        description: Android Debloat Tool
+        icon: fab fa-android
+        url: https://adbappcontrol.com/
+      - title: Lively Wallpaper
+        description: Animated Desktop Backgrounds
+        icon: fas fa-desktop
+        url: https://rocksdanister.github.io/lively/
+
   - name: Web Utilities & Security
     icon: fas fa-tools
     items:
@@ -44,10 +148,6 @@ sections:
         description: Local File Transfer
         icon: fas fa-wifi
         url: https://pairdrop.net/
-      - title: CyberChef
-        description: The Cyber Swiss Army Knife
-        icon: fas fa-utensils
-        url: https://gchq.github.io/CyberChef/
       - title: 12ft Ladder
         description: Bypass Paywalls
         icon: fas fa-ladder-water
@@ -92,10 +192,6 @@ sections:
         description: Network Admin Console
         icon: fas fa-network-wired
         url: https://login.tailscale.com/admin/machines
-      - title: Syncthing
-        description: Local File Synchronization
-        icon: fas fa-sync
-        url: http://127.0.0.1:8384/#
       - title: BetterStack
         description: Incident Management
         icon: fas fa-layer-group
@@ -208,10 +304,6 @@ sections:
         description: The Legacy Index
         icon: fas fa-ship
         url: https://www.thepiratebay.org/
-      - title: ABC Torrents
-        description: General Tracker
-        icon: fas fa-folder-open
-        url: https://abctorrents.xyz/
 
   - name: Anime Arsenal
     icon: fas fa-journal-whills
@@ -236,10 +328,6 @@ sections:
         description: Automated Mirror DDLs
         icon: fas fa-copy
         url: https://animetosho.org/
-      - title: AniDex
-        description: Torrent Tracker
-        icon: fas fa-database
-        url: https://anidex.info/
       - title: AnimeOnsen
         description: Streaming Hub
         icon: fas fa-video
@@ -248,10 +336,6 @@ sections:
         description: Asian Media Streaming
         icon: fas fa-film
         url: https://asiaflix.net/
-      - title: AnimeKai
-        description: General Anime Hub
-        icon: fas fa-play-circle
-        url: https://animekai.ac/home
 
   - name: Aesthetics & Wallpapers
     icon: fas fa-palette
@@ -271,7 +355,7 @@ sections:
       - title: E-Shuushuu
         description: Image Board
         icon: fas fa-images
-        url: http://e-shuushuu.net/top.php?page=12
+        url: https://e-shuushuu.net/
       - title: AlphaCoders Mobile
         description: Phone Aspect Ratios
         icon: fas fa-mobile
